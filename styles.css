@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:black;
+}
+
+.container{
+    background-color:white;
+    border-radius:10px;
+    width:40%;
+    height:250px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.container .form{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.container .form label{
+    color:black;
+    margin-bottom:2%;
+}
+.container .form button{
+    background-color:black;
+    color:white;
+    border:none;
+    margin-top:2%;
+}
